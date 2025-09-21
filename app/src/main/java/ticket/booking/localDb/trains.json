@@ -1,0 +1,35 @@
+[ {
+  "train_id" : "T123",
+  "train_no" : "12345",
+  "seats" : [ [ 1, 1, 1, 1, 0 ], [ 1, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 0 ] ],
+  "station_times" : {
+    "kandivali" : "08:00 AM",
+    "borivali" : "09:00 AM",
+    "goregaon" : "10:00 AM",
+    "malad" : "11:00 PM"
+  },
+  "stations" : [ "kandivali", "borivali", "goregaon", "malad" ],
+  "train_info" : "Train ID: T123 Train No: 12345"
+}, {
+  "train_id" : "T456",
+  "train_no" : "45678",
+  "seats" : [ [ 1, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0 ] ],
+  "station_times" : {
+    "andheri" : "10:00 AM",
+    "vileparle" : "11:00 AM",
+    "bandra" : "12:00 PM"
+  },
+  "stations" : [ "andheri", "vileparle", "bandra" ],
+  "train_info" : "Train ID: T456 Train No: 45678"
+}, {
+  "train_id" : "T789",
+  "train_no" : "78912",
+  "seats" : [ [ 0, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0 ] ],
+  "station_times" : {
+    "dadar" : "02:00 PM",
+    "grantroad" : "03:00 PM",
+    "byculla" : "04:00 PM"
+  },
+  "stations" : [ "dadar", "grantroad", "byculla" ],
+  "train_info" : "Train ID: T789 Train No: 78912"
+} ]
