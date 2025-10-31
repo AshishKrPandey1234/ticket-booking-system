@@ -1,57 +1,73 @@
+
 ---
 
-# 🎟️ **Ticket Booking System (CLI-Based)**  
+# 🎟️ **Ticket Booking System (CLI-Based)**
 
-This project is my first **Java-based Ticket Booking System**, designed to strengthen my **Object-Oriented Programming (OOP)** skills while implementing practical functionalities like **user authentication, train search, ticket booking, and cancellation**. *Special thanks to [Lovepreet Singh](https://github.com/AlphaDecodeX) for his amazing tutorials and projects. His teaching helped me a lot!* 
+This project is my **first Java-based Ticket Booking System**, created to strengthen my understanding of **Object-Oriented Programming (OOP)** concepts through a real-world application. It’s a simple **command-line interface (CLI)** program where users can **sign up, log in, search trains, book tickets, and cancel reservations** — all using basic Java features.
 
-## 🚀 **Features**  
+I want to give special thanks to **[Lovepreet Singh](https://github.com/AlphaDecodeX)** for his helpful tutorials and projects, which really guided me while building this system. His way of explaining made it easier for me to understand and implement the logic step by step.
 
-✔️ **User Authentication** – Secure sign-up and login system  
-✔️ **Train Search** – Find trains between selected stations  
-✔️ **Seat Availability** – View available seats before booking  
-✔️ **Booking Management** – Reserve and cancel train seats  
-✔️ **Data Persistence** – Store user and booking information  
+---
 
-## 🛠️ **Technologies Used**  
+## 🚀 **Features**
 
-🔹 **Java** – Core logic and implementation  
-🔹 **Gradle** – Build automation and dependency management  
-🔹 **Collections & Streams API** – Efficient data handling  
-🔹 **OOP Principles** – Encapsulation, Abstraction, and Polymorphism  
+✅ **User Authentication** – Secure login and registration for users
+✅ **Train Search** – Find available trains between selected stations
+✅ **Seat Availability Check** – View seats before booking to avoid conflicts
+✅ **Ticket Booking & Cancellation** – Reserve and cancel tickets easily
+✅ **Data Persistence** – Store user and booking data during program execution
 
-## 📦 **Setup & Run**  
+---
 
-### **Step 1:** Clone the Repository  
-```sh
+## 🛠️ **Technologies Used**
+
+🔹 **Java** – Core programming and logic implementation
+🔹 **Gradle** – For building and running the project
+🔹 **Collections Framework & Streams API** – Used for managing and filtering data efficiently
+🔹 **OOP Concepts** – Proper use of encapsulation, abstraction, inheritance, and polymorphism
+
+---
+
+## ⚙️ **How to Set Up and Run**
+
+### **Step 1: Clone the Repository**
+
+```bash
 git clone https://github.com/Sameer07x19/TicketBookingSystem.git
 cd TicketBookingSystem
 ```
 
-### **Step 2:** Build the Project  
-```sh
+### **Step 2: Build the Project**
+
+```bash
 ./gradlew build
 ```
 
-### **Step 3:** Run the Application  
-```sh
+### **Step 3: Run the Application**
+
+```bash
 ./gradlew run
 ```
 
-## 📌 **How to Use**  
+---
 
-1️⃣ **Sign Up** – Register a new account  
-2️⃣ **Login** – Access your account securely  
-3️⃣ **Search Trains** – Enter source and destination  
-4️⃣ **View Seats** – Check seat availability before booking  
-5️⃣ **Book a Seat** – Select and confirm your seat  
-6️⃣ **Cancel Booking** – Remove an existing reservation  
-7️⃣ **Exit** – Close the application  
+## 💡 **How It Works**
 
-## 🏗️ **Future Enhancements**  
+1️⃣ **Sign Up** – Create a new user account
+2️⃣ **Login** – Access the system securely
+3️⃣ **Search for Trains** – Enter source and destination stations
+4️⃣ **Check Seat Availability** – View the number of open seats
+5️⃣ **Book Tickets** – Confirm your booking by choosing a train and seat
+6️⃣ **Cancel Tickets** – Cancel your previous reservations
+7️⃣ **Exit** – Safely close the application
 
-🚀 **Graphical User Interface (GUI)** – Improve user experience  
-💾 **Database Integration** – Store user and train data persistently  
-🔧 **Admin Panel** – Manage train schedules and user bookings  
+---
+
+## 🔮 **Future Improvements**
+
+🌐 **GUI Version** – Add a graphical interface for a smoother user experience
+💾 **Database Support** – Use a database for storing user and train details permanently
+🧑‍💼 **Admin Module** – Add admin functionalities for managing trains and bookings
 
 ---
 
