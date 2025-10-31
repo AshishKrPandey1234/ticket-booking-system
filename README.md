@@ -12,9 +12,13 @@ I want to give special thanks to **[Lovepreet Singh](https://github.com/AlphaDec
 ## 🚀 **Features**
 
 ✅ **User Authentication** – Secure login and registration for users
+
 ✅ **Train Search** – Find available trains between selected stations
+
 ✅ **Seat Availability Check** – View seats before booking to avoid conflicts
+
 ✅ **Ticket Booking & Cancellation** – Reserve and cancel tickets easily
+
 ✅ **Data Persistence** – Store user and booking data during program execution
 
 ---
